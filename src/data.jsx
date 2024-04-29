@@ -1,1 +1,7 @@
-export const name=""
+export const logo_name="Hasan"
+export const name="Md. Ismail Hasan"
+export const profession="Web devloper"
+export const facebook=""
+export const instagram=""
+export const twitter=""
+export const linkedin=""
