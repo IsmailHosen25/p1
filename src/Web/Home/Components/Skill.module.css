@@ -1,0 +1,46 @@
+.skill{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill_con{
+    width: 80%;
+    padding: 5rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.h1{
+    text-align: center;
+    font-size: 4rem;
+}
+.skill_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.skill_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+}
+.item_heading{
+    font-size: 1.5rem;
+}
+.item_img{
+    width: 30px;
+    height: 30px;
+}
+@media (max-width:900px) {
+    .skill_con{
+        width: 90%;
+    }
+}
