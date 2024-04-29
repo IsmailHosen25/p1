@@ -11,3 +11,16 @@ html{
     font-size: 10px;
     scroll-behavior: smooth;
 }
+.footer{
+    padding: 1.5rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+ }
+ .agencylink{
+    color: #F7C566;
+ }

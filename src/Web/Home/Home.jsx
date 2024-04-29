@@ -3,6 +3,8 @@ import Header from "./Components/Header"
 import Do from "./Components/Do"
 import Skill from "./Components/Skill"
 import Service from "./Components/Service"
+import Contact from "../Contact/Contact"
+import Footer from "../Global/Footer"
 export default function Home() {
   return (
    <div className={style.main_home}>
@@ -10,6 +12,8 @@ export default function Home() {
       <Do/>
       <Skill/>
       <Service/>
+      <Contact/>
+      <Footer/>
    </div>
   )
 }
