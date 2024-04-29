@@ -31,6 +31,10 @@
     padding: 0 1rem;
     border-right: 1px solid black;
     font-size: 2rem;
+    cursor: grab;
+}
+.logo_name:hover{
+    color: #F7C566;
 }
 .link{
     font-family: "Play", sans-serif;

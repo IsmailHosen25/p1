@@ -6,7 +6,7 @@
 }
 .skill_con{
     width: 80%;
-    padding: 5rem 0rem;
+    padding: 3rem 0rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,6 +31,10 @@
     gap: 0.5rem;
     padding: 0.5rem 1rem;
     border: 1px solid black;
+}
+.skill_item:hover{
+    border: 1px solid #F7C566;
+    cursor: grab;
 }
 .item_heading{
     font-size: 1.5rem;

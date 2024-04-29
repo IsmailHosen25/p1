@@ -49,6 +49,7 @@
     padding: 0.5rem 1rem;
     font-size: 1.8rem;
     background-color: #fff;
+    cursor: pointer;
 }
 .btn:hover{
     border: 2px solid #F7C566;
