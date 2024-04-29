@@ -1,0 +1,18 @@
+.pageHeading{
+    width: 100%;
+    padding: 5rem 0rem;
+    background-color: #8B93FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    width: 80%;
+    font-size: 4rem;
+    color: #fff;
+}
+@media (max-width:900px){
+    .heading{
+        width: 90%;
+    }
+}
