@@ -44,7 +44,7 @@ const items=[{
 
 export default function Service() {
   return (
-    <div className={style.service}>
+    <div id='service' className={style.service} >
         <div className={style.service_con}>
            <h1 className={style.h1}>
             Why Choose me ?

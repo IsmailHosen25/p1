@@ -2,6 +2,7 @@ import React from 'react'
 import style from "./Aboutheader.module.css"
 import {name} from "../../../data"
 import img from "../../../assets/Hasan.jpg"
+import {Cv} from "../../../data"
 export default function Aboutheader() {
   return (
     <div className={style.div}>
@@ -30,7 +31,7 @@ export default function Aboutheader() {
                     <h3 className={style.item_h1}>Number -</h3>
                     <p className={style.item_p}>01XXXXXXXXX</p>
                 </div>
-                <button className={style.btn}>Download CV</button>
+                <a href={Cv} className={style.btn} download>Download CV</a>
              </div>
           </div>
         </div>

@@ -19,9 +19,9 @@
 }
 .img{
     width: 300px;
-    height: 300px;
+    height: 320px;
     border: 1px solid #8B93FF;
-    border-radius: 20%;
+    border-radius: 10%;
 }
 .info{
     display: flex;
@@ -50,6 +50,9 @@
     font-size: 1.8rem;
     background-color: #fff;
     cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    border:2px solid #000 ;
 }
 .btn:hover{
     border: 2px solid #F7C566;

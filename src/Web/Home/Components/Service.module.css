@@ -21,7 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 5rem;
     flex-wrap: wrap;
 }
 .service_item{
@@ -32,8 +32,8 @@
     gap: 2rem;
 }
 .item_img{
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
 .item_div{
     display: flex;
@@ -59,10 +59,6 @@
 @media (max-width:780px){
     .service_item{
         width: 90%;
-    }
-    .item_img{
-        width: 50px;
-        height: 50px;
     }
     .item_heading{
         font-size: 1.8rem;

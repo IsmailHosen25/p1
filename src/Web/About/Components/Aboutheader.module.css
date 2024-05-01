@@ -77,6 +77,8 @@
     background-color: #F7C566;
     cursor: pointer;
     border: 2px solid #F7C566;
+    text-decoration: none;
+    color: #000;
 }
 .btn:hover{
     background-color: #fff;

@@ -1,22 +1,26 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import style from "./Nav.module.css"
-import { Link } from 'react-router-dom'
+import { Link,useNavigate } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 import {logo_name} from  '../../../data'
-export default function Nav() {
-    const [active, setactive]=useState("home")
+export default function Nav({active,service}) {
+  const navigate =useNavigate()
+    useEffect(()=>{
+      
+    },[])
   return (
     <div className={style.nav}>
         <div className={style.navcon}>
             <div className={style.logo}>
                <p className={style.logo_name}>{logo_name}</p>
-               <Link to={"/"}onClick={()=>setactive("home")} className={`${style.link} ${active==="home"? style.active:""}`}>Home</Link>
+               <Link to={"/"} className={`${style.link} ${active==="home"? style.active:""}`}>Home</Link>
             </div>
             <div className={style.navlink}>
-              <Link to={"/certificate"} onClick={()=>setactive("certify")} className={`${style.link} ${active==="certify"? style.active:""}`}>Certificate</Link>
-              <Link to={"/galary"} onClick={()=>setactive("galary")} className={`${style.link} ${active==="galary"? style.active:""}`}>Galary</Link>
-              <Link to={"/about"} onClick={()=>setactive("about")} className={`${style.link} ${active==="about"? style.active:""}`}>About</Link>
-              <Link to={"/service"} onClick={()=>setactive("service")} className={`${style.link} ${active==="service"? style.active:""}`}>Service</Link>
-              <Link to={"/contact"} onClick={()=>setactive("contact")} className={`${style.link} ${active==="contact"? style.active:""}`}>Contact</Link>
+              <Link to={"/certificate"}  className={`${style.link} ${active==="certify"? style.active:""}`}>Certificate</Link>
+              <Link to={"/gallery"}  className={`${style.link} ${active==="gallery"? style.active:""}`}>Gallery</Link>
+              <Link to={"/about"}  className={`${style.link} ${active==="about"? style.active:""}`}>About</Link>
+              <HashLink to={service}  className={`${style.link} ${active==="service"? style.active:""}`}>Service</HashLink>
+              <HashLink to={"#contact"}  className={`${style.link} ${active==="contact"? style.active:""}`}>Contact</HashLink>
             </div>
         </div>
     </div>

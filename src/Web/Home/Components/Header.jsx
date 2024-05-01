@@ -8,6 +8,9 @@ import { IoLogoInstagram } from "react-icons/io5";
 
 import { facebook,instagram,linkedin,twitter } from '../../../data'
 
+import {Cv} from "../../../data"
+
+
 export default function Header() {
   return (
     <div className={style.home}>
@@ -17,7 +20,7 @@ export default function Header() {
          <div className={style.info}>
              <p className={style.name}>{name}</p>
              <p className={style.profe}>_{profession}</p>
-             <button className={style.btn}>Download CV</button>
+             <a href={Cv} className={style.btn} download>Download CV</a>
          </div>
         </div>
         <div className={style.social_link}>

@@ -6,16 +6,23 @@ import Service from "./Components/Service"
 import Contact from "../Contact/Contact"
 import Footer from "../Global/Footer"
 import Project from "./Components/Project"
+import Nav from "../Global/Nav/Nav"
+import { useEffect,useRef } from "react"
 export default function Home() {
+  useEffect(()=>{
+    window.scrollTo({top:0,behavior:"smooth"})
+  },[])
   return (
-   <div className={style.main_home}>
+   <>
+      <Nav active={"home"}  service={"#service"}/>
       <Header/>
       <Do/>
       <Skill/>
       <Project/>
-      <Service/>
+      <Service />
+
       <Contact/>
       <Footer/>
-   </div>
+   </>
   )
 }

@@ -9,7 +9,7 @@ import { facebook, instagram, linkedin, twitter } from "../../data";
 
 export default function Contact() {
   return (
-    <div className={style.contact}>
+    <div id="contact" className={style.contact}>
 
     <div className={style.container}>
       <main className={style.row}>
