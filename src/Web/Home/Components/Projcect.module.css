@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+.project{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project_con{
+    padding: 3rem 0rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.item{
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.img{
+    width: 100%;
+    height: 280px;
+}
+.item_desc1{
+    height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    padding: 1rem 1rem;
+}
+.item_desc2{
+    height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    background-color: #000;
+    color: #fff;
+    padding: 2rem 1rem;
+}
+.h1{
+   font-size: 2rem;
+   letter-spacing: 0.5rem;
+   font-family: "Muli";
+   font-weight: 300;
+   color: #847F7D;
+}
+.desc2_h1{
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    font-family: "Muli";
+    font-weight: 300;
+    color:#fff;
+}
+.p{
+    font-size: 3rem;
+    font-family: "Old Standard TT";
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+}
+.p:hover{
+    text-decoration: underline;
+}
+@media (max-width:900px){
+    .project_con{
+        width: 90%;
+    }
+
+}
+@media (max-width:500px) {
+    .item{
+        width: 300px;
+    }
+    .img{
+        height: 230px;
+    }
+}

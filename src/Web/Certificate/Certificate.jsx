@@ -8,7 +8,7 @@ import imagesdata from './certifyimgdata'
 export default function Certificate() {
   return (
     <div className={style.certificate}>
-    <PageHeading title={"Certificate"}/>
+    <PageHeading title={"Certificate_"} desc={"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio eligendi voluptas quia."}/>
     <div className={style.certificate_con}>  
       <ImageGallery imagesdata={imagesdata}/>
     </div>

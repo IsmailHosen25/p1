@@ -1,0 +1,101 @@
+.div{
+    width: 100%;
+    padding: 5rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner_div{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.img{
+    width: 380px;
+    height: 410px;
+}
+.self_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+}
+.name_desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.name{
+  font-size: 4rem;
+  color: #F7C566;
+}
+.desc{
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+.gen_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+.gen_title{
+    font-size: 2.3rem;
+    letter-spacing: 0.1rem;
+}
+.span{
+ color: #F7C566;
+}
+.info_items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.item_h1{
+    font-size: 1.7rem;
+}
+.item_p{
+    font-size: 1.7rem;
+}
+.btn{
+    padding: 0.5rem 1rem;
+    font-size: 1.8rem;
+    background-color: #F7C566;
+    cursor: pointer;
+    border: 2px solid #F7C566;
+}
+.btn:hover{
+    background-color: #fff;
+    transition: 0.1s all linear;
+}
+@media (max-width:900px) {
+    .inner_div{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap:wrap-reverse ;
+    }
+    .gen_info{
+        width: 100%;
+    }
+}
+@media (max-width:500px) {
+    .img{
+        width: 320px;
+        height: 360px;
+    }
+}

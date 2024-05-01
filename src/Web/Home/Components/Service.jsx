@@ -47,7 +47,7 @@ export default function Service() {
     <div className={style.service}>
         <div className={style.service_con}>
            <h1 className={style.h1}>
-            Why Choose us ?
+            Why Choose me ?
            </h1>
            <div className={style.service_div}>
             {items.map((item,i)=><div key={i} className={style.service_item}>
